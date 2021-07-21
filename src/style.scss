@@ -1,5 +1,5 @@
 $color-primary: #b6958b;
-$color-secondary: #483b31;
+$color-secondary: #d8c7bb;
 
 strong{
     font-weight: bold;
@@ -7,8 +7,15 @@ strong{
 }
 
 .whatsapp-icon{
-    display: none;
-}
+    display: block;
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    font-size: 3rem;
+    opacity: 0.6;
+    color: #dcf8c6;
+    z-index: 10;
+  }
 
 #Navbar{
     display: flex;
@@ -101,11 +108,38 @@ nav{
     justify-items: center; 
     align-items: center;
     width: 100%;
-    height: 50vh;
+    min-height: 50vh;
+    overflow-y: hidden;
 
-    img{
+    .carousel {
+        position: relative;
         width: 100%;
         height: 100%;
+        overflow: hidden;
+
+        .carousel-item {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 100%;
+            overflow: hidden;
+
+            &.active {
+                left: 0;
+                transition: all 0.3s ease-out;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+            .red {background-color: red;}
+            .green {background-color: green;}
+            .yellow {background-color: yellow;}
+            .violet {background-color: violet;}
+        }
     }
 
     .texto{
@@ -231,9 +265,12 @@ nav{
         align-content: center;
         color: #fff;
         align-items: center;
+        height: auto;
+        width: auto;
 
         .logo-enjoy{
             width: 20vw;
+            height: auto;
             padding-bottom: 2rem;
         }
     

@@ -4,14 +4,8 @@ $color-secondary: #483b31;
 @media only screen and (max-width: 720px) {
 
   .whatsapp-icon{
-    display: block;
-    position: fixed;
     bottom: 5%;
     right: 10%;
-    font-size: 3rem;
-    opacity: 0.6;
-    color: #128C7E;
-    z-index: 10;
   }
   
   #Navbar{
@@ -161,9 +155,18 @@ $color-secondary: #483b31;
     justify-content: center;
     margin-bottom: 2rem;
 
-    img{
-        width: 70%;
-        min-height: auto;
+    .carousel{
+      width: 70%;
+      height: 40vh;
+
+      div{
+        height: 100%;
+
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
     }
 
     .texto{
@@ -342,6 +345,7 @@ $color-secondary: #483b31;
   position: relative;
   display: flex;
   flex-direction: column-reverse;
+  overflow: hidden;
 
   iframe{
       width: 100%;

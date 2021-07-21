@@ -1,13 +1,7 @@
 @media only screen and (max-width: 720px) {
   .whatsapp-icon {
-    display: block;
-    position: fixed;
     bottom: 5%;
     right: 10%;
-    font-size: 3rem;
-    opacity: 0.6;
-    color: #128C7E;
-    z-index: 10;
   }
   #Navbar {
     display: none;
@@ -181,9 +175,16 @@
             justify-content: center;
     margin-bottom: 2rem;
   }
-  #Sobre img {
+  #Sobre .carousel {
     width: 70%;
-    min-height: auto;
+    height: 40vh;
+  }
+  #Sobre .carousel div {
+    height: 100%;
+  }
+  #Sobre .carousel div img {
+    width: 100%;
+    height: auto;
   }
   #Sobre .texto {
     display: -webkit-box;
@@ -393,6 +394,7 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    overflow: hidden;
   }
   #Contato iframe {
     width: 100%;
