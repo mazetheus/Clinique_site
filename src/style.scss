@@ -12,7 +12,6 @@ strong{
     bottom: 5vh;
     right: 5vw;
     font-size: 3rem;
-    opacity: 0.6;
     color: #dcf8c6;
     z-index: 10;
   }
@@ -170,18 +169,17 @@ nav{
     background-position: center;
     background-attachment: fixed;
     height: 50vh;
-
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    color: $color-primary;
 
     .cta{
         width: 25vw;
         text-align: center;
         font-size: 1.2rem;
         font-weight: normal;
-        color: $color-primary;
 
         h2{
             font-weight: normal;
@@ -189,11 +187,9 @@ nav{
                 display: none;
             }
         }
-
         a{
             text-decoration: none;
         }
-
         .botao{
             color: $color-primary;
             font-size: 1.2rem;
@@ -204,7 +200,7 @@ nav{
     }
     .lista{
         width: 40vw;
-        color: $color-secondary;
+        color: $color-primary;
         ul{
             column-count: 3;
         }

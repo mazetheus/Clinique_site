@@ -9,7 +9,6 @@ strong {
   bottom: 5vh;
   right: 5vw;
   font-size: 3rem;
-  opacity: 0.6;
   color: #dcf8c6;
   z-index: 10;
 }
@@ -218,6 +217,7 @@ nav {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  color: #b6958b;
 }
 
 #Especialidades .cta {
@@ -225,7 +225,6 @@ nav {
   text-align: center;
   font-size: 1.2rem;
   font-weight: normal;
-  color: #b6958b;
 }
 
 #Especialidades .cta h2 {
@@ -250,7 +249,7 @@ nav {
 
 #Especialidades .lista {
   width: 40vw;
-  color: #d8c7bb;
+  color: #b6958b;
 }
 
 #Especialidades .lista ul {
