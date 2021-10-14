@@ -308,7 +308,7 @@
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     gap: 0px 0%;
-        grid-template-areas: ". ." ". .";
+        grid-template-areas: ". ." ". .";
     justify-items: start;
     -ms-flex-line-pack: center;
         align-content: center;

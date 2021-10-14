@@ -3,16 +3,6 @@ strong {
   font-style: italic;
 }
 
-.whatsapp-icon {
-  display: block;
-  position: fixed;
-  bottom: 5vh;
-  right: 5vw;
-  font-size: 3rem;
-  color: #dcf8c6;
-  z-index: 10;
-}
-
 #Navbar {
   display: -webkit-box;
   display: -ms-flexbox;
