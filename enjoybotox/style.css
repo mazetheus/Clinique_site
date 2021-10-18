@@ -50,19 +50,18 @@ body {
   max-width: 30vw;
 }
 
-#banner .conteudo button {
+#banner .conteudo .button {
   color: #252525;
   background-color: #e7bf91;
   border: none;
   border-radius: 30px;
   padding: 1rem 3rem;
   font-size: 1.2rem;
-  margin-top: 2rem;
+  margin-top: 5rem;
   font-weight: bold;
 }
 
 #precos {
-  padding: 5% 10%;
   background-color: #f5f5f5;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,11 +73,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 5% 10%;
 }
 
 #precos .titulo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #473a31;
+  margin-bottom: 3rem;
 }
 
 #precos .titulo span {
@@ -88,10 +89,16 @@ body {
 #precos table {
   color: #ffffff;
   width: 60vw;
+  vertical-align: middle;
+  margin-bottom: 3rem;
+}
+
+#precos table tr {
+  height: 2rem;
 }
 
 #precos table td {
-  padding: 0.5rem;
+  border: none;
 }
 
 #precos tr:nth-child(even) {
@@ -100,5 +107,75 @@ body {
 
 #precos tr:nth-child(odd) {
   background: #483b31;
+}
+
+#precos .parcelas02 {
+  width: 80%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #b6958b;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 3rem;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+
+#precos .parcelas02 span {
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  overflow-x: visible;
+  font-size: 3.5rem;
+}
+
+#clinique {
+  background-color: #f5f5f5;
+  padding: 5% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clinique img {
+  max-width: 80%;
+}
+
+#contato {
+  padding: 5% 10%;
+  background-image: url(/enjoybotox/src/bg-contato.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #312821;
+}
+
+#contato .map {
+  -webkit-clip-path: circle(30%);
+  clip-path: circle(30%);
+  filter: hue-rotate(180deg);
+  -webkit-filter: hue-rotate(180deg);
+  -moz-filter: hue-rotate(180deg);
+}
+
+#contato p {
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+#contato a {
+  color: #312821;
+}
+
+#contato .button {
+  color: #252525;
+  font-size: 0.8rem;
+  background-color: #e7bf91;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

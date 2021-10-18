@@ -1,0 +1,50 @@
+@media only screen and (max-width: 720px) {
+  #banner {
+    padding: 0;
+  }
+  #banner * {
+    overflow: visible !important;
+  }
+  #banner .logos {
+    width: 100%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow: visible;
+  }
+  #banner .logos .img {
+    width: 40px;
+  }
+  #banner .conteudo .fachada {
+    width: 100vw !important;
+  }
+  #banner .conteudo .text {
+    padding: 5% 15%;
+  }
+  #banner .conteudo .button {
+    padding: 1rem 3rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  #precos table {
+    width: 80vw;
+    font-size: 0.7rem;
+  }
+  #precos table td {
+    border: none;
+  }
+  #precos .text {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  #precos .text .parcelas01 {
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  #precos .text .parcelas02 {
+    font-size: 1.5rem;
+  }
+  #precos .text .parcelas02 span {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style-mobile.css.map */

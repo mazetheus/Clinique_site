@@ -1,13 +1,18 @@
+$light-pink: #f5f5f5;
+$padding-heigh: 5%;
+$padding-width: 10%;
+
 body {
     font-family: Lato;
 }
+
 #banner {
     min-height: 80vh;
     background-image: url(src/banner-bg.jpg);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5% 10%;
+    padding: $padding-heigh $padding-width;
     
     .logos {
         display: flex;
@@ -31,29 +36,30 @@ body {
             max-width: 30vw;
         }
 
-        button {
+        .button {
             color: #252525;
             background-color: #e7bf91;
             border: none;
             border-radius: 30px;
             padding: 1rem 3rem;
             font-size: 1.2rem;
-            margin-top: 2rem;
+            margin-top: 5rem;
             font-weight: bold;
         }
     }
 }
 
 #precos {
-    padding: 5% 10%;
     background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: $padding-heigh $padding-width;
 
     .titulo {
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: #473a31;
+        margin-bottom: 3rem;
 
         span {
             font-family: "AddingtonCF";
@@ -62,11 +68,83 @@ body {
     table {
         color: #ffffff;
         width: 60vw;
-
+        vertical-align: middle;
+        margin-bottom: 3rem;
+        
+        tr {
+            height: 2rem;
+        }
         td {
-            padding: 0.5rem;
+            //padding: 0;
+            border: none;
         }
     }
     tr:nth-child(even) {background: #b6958b}
     tr:nth-child(odd) {background: #483b31}
+
+    .parcelas02 {
+        width: 80%;
+        text-align: center;
+        color: #ffffff;
+        background-color: #b6958b;
+        font-style: italic;
+        font-weight: 100;
+        font-size: 3rem;
+        border-radius: 15px;
+        vertical-align: middle;
+
+        span {
+            display: inline-block;
+            font-style: normal;
+            font-weight: bold;
+            overflow-x: visible;
+            font-size: 3.5rem;
+        }
+    }
+}
+
+#clinique {
+    background-color: $light-pink;
+    padding: $padding-heigh $padding-width;
+    display: flex;
+    align-items: center;
+    img {
+        max-width: 80%;
+    }
+}
+
+#contato {
+    padding: $padding-heigh $padding-width;
+    background-image: url(/enjoybotox/src/bg-contato.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #312821;
+
+
+    .map {
+        -webkit-clip-path: circle(30%);
+        clip-path: circle(30%);
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+        -moz-filter: hue-rotate(180deg);
+    }
+
+    p {
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
+    a {
+        color: #312821;
+    }
+
+    .button {
+        color: #252525;
+        font-size: 0.8rem;
+        background-color: #e7bf91;
+        border: none;
+        border-radius: 30px;
+        padding: 1rem 2rem;
+        font-weight: bold;
+    }
 }

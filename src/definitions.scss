@@ -34,6 +34,22 @@ h1, h2, h3, p{
    
 }
 
+.desktop {
+  display: block;
+}
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
 @font-face {
     font-family: 'AddingtonCF';
     src: url('/src/AddingtonCF-DemiBoldItalic.eot'); /* IE9 Compat Modes */

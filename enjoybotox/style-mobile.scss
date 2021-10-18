@@ -1,0 +1,64 @@
+$color-primary: #b6958b;
+$color-secondary: #483b31;
+$padding-heigh: 5%;
+$padding-width: 15%;
+
+@media only screen and (max-width: 720px) {
+   #banner {
+    * {
+        overflow: visible !important;
+    }
+
+        padding: 0;
+
+        .logos {
+            width: 100%;
+            flex-wrap: nowrap;
+            overflow: visible;
+            .img {
+                width: 40px;
+            }
+        }
+
+        .conteudo {
+            .fachada {
+                width: 100vw !important;
+            }
+            .text {
+                padding: $padding-heigh $padding-width;
+            }
+            .button {
+                padding: 1rem 3rem;
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+    }
+
+    #precos {
+        table {
+            width: 80vw;
+            font-size: 0.7rem;
+            td {
+                //padding: 0;
+                border: none;
+            }
+        }
+
+        .text {
+            flex-wrap: nowrap;
+            .parcelas01{
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+            .parcelas02 {
+                font-size: 1.5rem;
+                span{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+
+}
