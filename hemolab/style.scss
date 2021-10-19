@@ -1,0 +1,137 @@
+$padding-heigh: 5%;
+$padding-width: 10%;
+
+body {
+    font-family: Lato;
+}
+
+#banner {
+    min-height: 80vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-heigh $padding-width;
+    
+    .logos {
+        display: flex;
+        flex-direction: row;
+        max-width: 50vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+        
+        img {
+            max-width: 150px;
+        }
+    }
+
+    .conteudo {
+        font-weight: 100;
+        text-align: justify;
+        line-height: 1.7rem;
+
+        .fachada {
+            max-width: 30vw;
+        }
+
+        .button {
+            color: #252525;
+            background-color: #e7bf91;
+            border: none;
+            border-radius: 30px;
+            padding: 1rem 3rem;
+            font-size: 1.2rem;
+            margin-top: 5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+#convenios {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-heigh $padding-width;
+
+    .titulo {
+        font-size: 2rem;
+        color: #473a31;
+        margin-bottom: 3rem;
+
+        span {
+            font-family: "AddingtonCF";
+        }
+    }
+
+    .carousel-control-prev {
+        background: rgb(71,58,49);
+        background: linear-gradient(90deg, rgba(71,58,49,0.5) 0%, rgba(255,255,255,0) 100%);
+    }
+    .carousel-control-next {
+        background: rgb(71,58,49);
+        background: linear-gradient(90deg,  rgba(255,255,255,0) 0%, rgba(71,58,49,0.5) 100%);
+    }
+}
+
+#clinique {
+    background-color: #ffffff;
+    padding: $padding-heigh $padding-width;
+    display: flex;
+    align-items: center;
+    img {
+        max-width: 80%;
+    }
+}
+
+#contato {
+    padding: $padding-heigh $padding-width;
+    background-image: url(/enjoybotox/src/bg-contato.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #312821;
+
+
+    .map {
+        -webkit-clip-path: circle(30%);
+        clip-path: circle(30%);
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+        -moz-filter: hue-rotate(180deg);
+    }
+
+    p {
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
+    a {
+        color: #312821;
+    }
+
+    .button {
+        color: #252525;
+        font-size: 0.8rem;
+        background-color: #e7bf91;
+        border: none;
+        border-radius: 30px;
+        padding: 1rem 2rem;
+        font-weight: bold;
+    }
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background: #b6958b;
+    height: 2rem;
+
+    img {
+        height: 1rem;
+        margin: auto;
+    }
+}

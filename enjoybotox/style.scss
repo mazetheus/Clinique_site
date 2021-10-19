@@ -148,3 +148,18 @@ body {
         font-weight: bold;
     }
 }
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background: #b6958b;
+    height: 2rem;
+
+    img {
+        height: 1rem;
+        margin: auto;
+    }
+}
