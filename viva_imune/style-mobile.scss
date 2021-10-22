@@ -1,0 +1,114 @@
+$color-primary: #b6958b;
+$color-secondary: #483b31;
+$padding-heigh: 5%;
+$padding-width: 10%;
+
+@media only screen and (max-width: 720px) {
+
+   #banner {
+        * {
+            overflow: visible !important;
+        }
+
+        padding: 10% 0;
+        
+        .logos {
+            width: 100%;
+            flex-wrap: nowrap;
+            overflow: visible;
+            .img {
+                width: 40px;
+            }
+        }
+
+        .conteudo {
+            
+            .fachada {
+                width: 100vw !important;
+                max-width: 100%;
+            }
+            .text {
+                text-align: center;
+                padding: $padding-heigh $padding-width;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                p {
+                   text-align: justify; 
+                }
+                
+            }
+            .button {
+                padding: 1rem 3rem;
+                font-size: 0.8rem;
+                text-align: center;
+            }
+        }
+    }
+
+    #servicos {
+        .item {
+            width: 50%;
+        }
+    }
+
+    #precos {
+        padding: $padding-heigh $padding-width;
+
+        table {
+            width: 80vw;
+            font-size: 0.7rem;
+            td {
+                //padding: 0;
+                border: none;
+            }
+        }
+
+        .text {
+            flex-wrap: nowrap;
+            .parcelas01{
+                font-size: 0.8rem;
+                font-weight: 300;
+            }
+            .parcelas02 {
+                font-size: 1.5rem;
+                span{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    #clinique {
+        padding: $padding-heigh $padding-width;
+
+        text-align: justify;
+
+        img {
+            margin: 2rem 0;
+            width: 80vw;
+            max-width: 100%;
+        }
+    }
+
+    #contato {
+        line-height: 2rem;
+        text-align: center;
+        .map {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    #footer {
+        height: 3rem;
+
+        img {
+            margin-top: 25%;
+            transform: translateY(-25%);
+        }
+    }
+
+   
+
+}

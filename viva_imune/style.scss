@@ -1,0 +1,182 @@
+$light-pink: #f5f5f5;
+$text-color: #312821;
+$padding-heigh: 5%;
+$padding-width: 10%;
+
+body {
+    font-family: Lato;
+}
+
+#banner {
+    min-height: 80vh;
+    background-image: url(src/banner-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-heigh $padding-width;
+    
+    .logos {
+        display: flex;
+        flex-direction: row;
+        max-width: 50vw;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 4rem;
+        
+        img {
+            max-width: 150px;
+        }
+    }
+
+    .conteudo {
+        font-weight: 100;
+        text-align: justify;
+        line-height: 1.7rem;
+
+        .fachada {
+            max-width: 30vw;
+        }
+        * {
+            overflow: visible;
+        }
+
+        .button {
+            color: #252525;
+            background-color: #e7bf91;
+            border: none;
+            border-radius: 30px;
+            padding: 1rem 3rem;
+            font-size: 1.2rem;
+            margin-top: 5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+#servicos {
+    background: $light-pink;
+    padding: $padding-heigh 15%;
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            width: 6rem;
+        }
+        .info {
+            color: $text-color;
+            text-align: center;
+            padding-top: 1rem;
+            width: 10rem;
+        }
+    }
+}
+
+#precos {
+    background-color: #f5f5f5;
+    color: $text-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: $padding-heigh $padding-width;
+
+    .titulo {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+        text-align: left;
+        font-family: "AddingtonCF";
+    }
+    table {
+        width: 60vw;
+        vertical-align: middle;
+        margin-bottom: 3rem;
+        font-style: italic;
+        
+        tr {
+            height: 2rem;
+        }
+        td {
+            padding: 0.4rem;
+            border: none;
+            vertical-align: middle;
+        }
+    }
+    tr:nth-child(even) {background: #b6948b}
+    tr:nth-child(odd) {background: #e3d2cd}
+}
+
+#planos {
+    padding: $padding-heigh $padding-width;
+
+    .item {
+        background: #e3d2cd;
+        border-radius: 20px;
+        padding: 1rem 0.5rem;
+    }
+
+    .descricao {
+        font-size: 0.5rem;
+    }
+}
+
+#clinique {
+    background-color: $light-pink;
+    padding: $padding-heigh $padding-width;
+    display: flex;
+    align-items: center;
+    img {
+        max-width: 80%;
+    }
+}
+
+#contato {
+    padding: $padding-heigh $padding-width;
+    background-image: url(/enjoybotox/src/bg-contato.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #312821;
+
+
+    .map {
+        -webkit-clip-path: circle(30%);
+        clip-path: circle(30%);
+        filter: hue-rotate(180deg);
+        -webkit-filter: hue-rotate(180deg);
+        -moz-filter: hue-rotate(180deg);
+    }
+
+    p {
+        overflow-x: visible;
+        overflow-y: visible;
+    }
+
+    a {
+        color: #312821;
+    }
+
+    .button {
+        color: #252525;
+        font-size: 0.8rem;
+        background-color: #e7bf91;
+        border: none;
+        border-radius: 30px;
+        padding: 1rem 2rem;
+        font-weight: bold;
+    }
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background: #b6958b;
+    height: 2rem;
+
+    img {
+        height: 1rem;
+        margin: auto;
+    }
+}

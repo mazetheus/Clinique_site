@@ -1,0 +1,230 @@
+body {
+  font-family: Lato;
+}
+
+#banner {
+  min-height: 80vh;
+  background-image: url(src/banner-bg.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 10%;
+}
+
+#banner .logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 50vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+}
+
+#banner .logos img {
+  max-width: 150px;
+}
+
+#banner .conteudo {
+  font-weight: 100;
+  text-align: justify;
+  line-height: 1.7rem;
+}
+
+#banner .conteudo .fachada {
+  max-width: 30vw;
+}
+
+#banner .conteudo * {
+  overflow: visible;
+}
+
+#banner .conteudo .button {
+  color: #252525;
+  background-color: #e7bf91;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  margin-top: 5rem;
+  font-weight: bold;
+}
+
+#servicos {
+  background: #f5f5f5;
+  padding: 5% 15%;
+}
+
+#servicos .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#servicos .item img {
+  width: 6rem;
+}
+
+#servicos .item .info {
+  color: #312821;
+  text-align: center;
+  padding-top: 1rem;
+  width: 10rem;
+}
+
+#precos {
+  background-color: #f5f5f5;
+  color: #312821;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 10%;
+}
+
+#precos .titulo {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+  font-family: "AddingtonCF";
+}
+
+#precos table {
+  width: 60vw;
+  vertical-align: middle;
+  margin-bottom: 3rem;
+  font-style: italic;
+}
+
+#precos table tr {
+  height: 2rem;
+}
+
+#precos table td {
+  padding: 0.4rem;
+  border: none;
+  vertical-align: middle;
+}
+
+#precos tr:nth-child(even) {
+  background: #b6948b;
+}
+
+#precos tr:nth-child(odd) {
+  background: #e3d2cd;
+}
+
+#planos {
+  padding: 5% 10%;
+}
+
+#planos .item {
+  background: #e3d2cd;
+  border-radius: 20px;
+  padding: 1rem 0.5rem;
+}
+
+#planos .descricao {
+  font-size: 0.5rem;
+}
+
+#clinique {
+  background-color: #f5f5f5;
+  padding: 5% 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clinique img {
+  max-width: 80%;
+}
+
+#contato {
+  padding: 5% 10%;
+  background-image: url(/enjoybotox/src/bg-contato.jpg);
+  background-position: center;
+  background-size: cover;
+  color: #312821;
+}
+
+#contato .map {
+  -webkit-clip-path: circle(30%);
+  clip-path: circle(30%);
+  filter: hue-rotate(180deg);
+  -webkit-filter: hue-rotate(180deg);
+  -moz-filter: hue-rotate(180deg);
+}
+
+#contato p {
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+#contato a {
+  color: #312821;
+}
+
+#contato .button {
+  color: #252525;
+  font-size: 0.8rem;
+  background-color: #e7bf91;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+
+#footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  background: #b6958b;
+  height: 2rem;
+}
+
+#footer img {
+  height: 1rem;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */
