@@ -108,6 +108,8 @@ body {
 
 #planos {
     padding: $padding-heigh $padding-width;
+    font-family: 'Lato';
+    background-color: $light-pink;
 
     .item {
         background: #e3d2cd;
@@ -115,8 +117,97 @@ body {
         padding: 1rem 0.5rem;
     }
 
+    ul {
+        font-size: small;
+        font-family: 'Lato';
+        margin-left: -28px;
+    }
+
     .descricao {
         font-size: 0.5rem;
+    }
+
+    .row.justify-content-md-between{
+        margin-top: 30px;
+    }
+
+    .planos-vacina-title-primary{
+        text-align: center;
+        color: #312821;
+        font-family: 'Lato';
+        font-size: 38px;
+        font-weight: bolder;
+        margin-top: 10px;
+
+    }
+            
+    .title-plano-1{
+        margin-right: 3pc;
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Lato';
+        font-weight: bolder;
+        font-style: italic;
+    }
+            
+    .legenda-1{
+        margin-top: -8px;
+        margin-left: 22px; 
+        font-family: 'Myriad Pro';
+        font-size: x-small;
+    }
+      
+    .title-plano-2{
+       text-align: center;
+       font-size: 22px;
+       font-family: 'Lato';
+       font-weight: bolder;
+       font-style: italic;
+       margin-right: 30px;
+    }
+            
+    .legenda-2{
+        margin-top: -8px;
+        margin-left: 20px;
+        font-family: 'Myriad Pro';
+        font-size: x-small;
+    }
+            
+    .title-plano-3{
+        text-align: center;
+        font-size: 22px;
+        font-family: 'Lato';
+        font-weight: bolder;
+        font-style: italic;
+    }
+            
+    .legenda-3{
+        margin-top: -8px;
+        margin-left: 7px;
+        font-family: 'Myriad Pro';
+        font-size: x-small;
+    }
+
+    .list-title{
+        font-family: 'Lato';
+        font-weight: bolder;
+        font-style: italic;
+        font-size: medium;
+        margin-left: 0px;
+    }
+
+    .bttn-planos{
+        border-radius: 20px;
+        background-color: #483b32;
+        color: #f5f5f5;
+        border-style: none;
+        margin-left: 15px;
+        font-family:'Lato';
+        font-style: italic;
+        font-weight: bolder;
+        font-size: 0.8rem;
+        padding: 1rem 0.8rem;
+        text-align: center;
     }
 }
 
