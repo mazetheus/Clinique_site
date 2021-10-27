@@ -148,16 +148,25 @@ body {
   background-color: #f5f5f5;
 }
 
+#planos .col-md-3.col-12.item {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 #planos .item {
   background: #e3d2cd;
   border-radius: 20px;
   padding: 1rem 0.5rem;
+  margin: 1rem;
+  padding-bottom: 2.3rem;
 }
 
 #planos ul {
   font-size: small;
   font-family: 'Lato';
   margin-left: -28px;
+  list-style: none;
 }
 
 #planos .descricao {
@@ -168,50 +177,52 @@ body {
   margin-top: 30px;
 }
 
-#planos .planos-vacina-title-primary {
+#planos .planos-vacina-title-primary h2 {
   text-align: center;
   color: #312821;
   font-family: 'Lato';
-  font-size: 38px;
-  font-weight: bolder;
+  font-size: 30px;
+  font-weight: 900;
+  font-style: italic;
   margin-top: 10px;
 }
 
 #planos .title-plano-1 {
-  margin-right: 3pc;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Lato';
   font-weight: bolder;
   font-style: italic;
+  margin-right: 5rem;
 }
 
 #planos .legenda-1 {
-  margin-top: -8px;
-  margin-left: 22px;
   font-family: 'Myriad Pro';
   font-size: x-small;
+  text-align: center;
+  margin-top: -8px;
+  margin-right: 0.4rem;
 }
 
 #planos .title-plano-2 {
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Lato';
   font-weight: bolder;
   font-style: italic;
-  margin-right: 30px;
+  margin-right: 4rem;
 }
 
 #planos .legenda-2 {
   margin-top: -8px;
-  margin-left: 20px;
   font-family: 'Myriad Pro';
   font-size: x-small;
+  text-align: center;
 }
 
 #planos .title-plano-3 {
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Lato';
   font-weight: bolder;
   font-style: italic;
@@ -219,9 +230,10 @@ body {
 
 #planos .legenda-3 {
   margin-top: -8px;
-  margin-left: 7px;
   font-family: 'Myriad Pro';
   font-size: x-small;
+  text-align: center;
+  margin-right: 2.9rem;
 }
 
 #planos .list-title {
@@ -232,18 +244,20 @@ body {
   margin-left: 0px;
 }
 
-#planos .bttn-planos {
-  border-radius: 20px;
+#planos a {
+  border-radius: 30px;
   background-color: #483b32;
   color: #f5f5f5;
   border-style: none;
   margin-left: 15px;
+  margin: 1rem;
   font-family: 'Lato';
   font-style: italic;
   font-weight: bolder;
   font-size: 0.8rem;
   padding: 1rem 0.8rem;
   text-align: center;
+  text-decoration: none;
 }
 
 #clinique {
@@ -261,12 +275,30 @@ body {
   max-width: 80%;
 }
 
+#clinique .col-md-6 {
+  margin-left: -3rem;
+}
+
+#clinique .col-md-6 h3 {
+  font-family: 'Lato';
+  font-weight: bold;
+  color: #312821;
+  margin: auto;
+  margin-bottom: 1.9rem;
+}
+
+#clinique .col-md-6 p {
+  color: #938e8b;
+  font-family: 'Lato';
+  font-weight: lighter;
+}
+
 #contato {
   padding: 5% 10%;
   background-image: url(/enjoybotox/src/bg-contato.jpg);
   background-position: center;
   background-size: cover;
-  color: #312821;
+  color: #e3d2cd;
 }
 
 #contato .map {
@@ -280,6 +312,10 @@ body {
 #contato p {
   overflow-x: visible;
   overflow-y: visible;
+  margin-left: 5rem;
+  font-family: 'Lato';
+  font-size: smaller;
+  color: #312821;
 }
 
 #contato a {
@@ -289,7 +325,7 @@ body {
 #contato .button {
   color: #252525;
   font-size: 0.8rem;
-  background-color: #e7bf91;
+  background-color: #e3d2cd;
   border: none;
   border-radius: 30px;
   padding: 1rem 2rem;
